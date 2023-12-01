@@ -49,8 +49,7 @@ font-family: 'Open Sans', sans-serif;*/
   display: flex;
   justify-content: center;
 }
-
-.teamImage h2 {
+.teamQuote h2 {
     background-color: white;
     padding: 14px;
     text-align: center;
@@ -174,14 +173,16 @@ font-family: 'Open Sans', sans-serif;*/
 }
 
 @media (min-width:768px){
-  .teamImage h2 {
-    background-color: white;
+  .teamQuote h2 {
+    background-color: var(--white);
     opacity: 0.8;
-    width: 50%;
-    margin-left: 46px;
-    margin-right: 281px;
     text-align: left;
     transform: translate(-34px, -75px );
+  }
+  .containerQuote{
+    position: absolute;
+    margin-right: 281px;;
+    margin-left: 46px;
   }
   .containerTeam {
     margin: 45px;   
@@ -192,17 +193,24 @@ font-family: 'Open Sans', sans-serif;*/
 }
 
 @media (min-width:1200px){
-  .teamImage h2 {
+  .containerQuote{
+    position: absolute;
+    margin-right: 488px;
+    margin-left: 138px;
+    width: 574px;
+    height: 90px;
+  }
+  .teamQuote h2 {
     background-color: white;
     opacity: 0.8;
-    width: 50%;
     margin-left: 46px;
     margin-right: 281px;
     text-align: left;
     transform: translate(-34px, -75px );
   }
   .containerTeam{
-    margin: 45px 299px 60px;
+    margin: 45px 299px 60px ;
+
   }
   .teamPresentation h2 {
     color: var(--blue-green);
