@@ -16,8 +16,9 @@ font-family: 'Open Sans', sans-serif;*/
 }
 
 .header{
-  background-image: url(../img/united-multiracial-ladies-holding-hands-260nw-1902681793.jpg);
+  background-image: url(../img/header-pretty.jpg);
   background-repeat: no-repeat;
+  font-family: 'Rubik', medium;
   background-position: center;
   background-size: cover;
   height: 50vh;
@@ -30,7 +31,7 @@ font-family: 'Open Sans', sans-serif;*/
   align-items: center;
   color: white;
   font-size: 16px;
-  opacity: 90%;
+  opacity: 70%;
   height: 60px;
 }
 
@@ -41,7 +42,7 @@ font-family: 'Open Sans', sans-serif;*/
   justify-content: space-around;
   align-items: center;
   font-size: 16px;
-  opacity: 90px;
+  opacity: 70px;
   height: 45px;
 }
 
