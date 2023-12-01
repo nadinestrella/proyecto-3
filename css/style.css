@@ -128,55 +128,65 @@ font-family: 'Open Sans', sans-serif;*/
 
 
 
-.who-title {
-    color: #099d8d;
+.titleWho {
+    color: var(--blue-green);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 30px;
     font-family: 'Rubik', sans-serif;
     font-size: 2.4rem;
-
+    padding-top: 45px;
 }
 
-.who-figure {
+.containerWho {
+  background-color: aqua;
+}
+
+.figureWho {
     text-align: center;
 }
-.who-image {
+.imageWho {
     width: 180px;
     height: 180px;
-    margin: 0 55px 15px;
+    margin: 0 70px 15px;
     border-radius: 4px;
-    border: solid 5px rgba(0, 0, 0, 0.08);
+    border: solid 5px var(--black-8);
 }
-.who-name {
+
+.boxDescriptionWho
+{
+  background-color: cadetblue;
+}
+
+.nameWho {
     font-weight: normal;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
 }
 
-.who-description {
+.descriptionWho {
     text-align: center;
     margin: 20px;
-    color: #54585a;
+    color: var(--gunmetal);
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
 }
-.who-iconBox{
+.iconBoxWho{
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 1.6rem;
-    
+    padding-bottom: 30px;
     
 }
 
-.who-icon  {
-    color: #099d8d;
+.iconWho  {
+    color: var(--blue-green);
     text-decoration: none;
 }
 
-.who-dot::after{
+.dotWho::after{
     content:"·" ;
     margin: 5px;
     padding: 5px;
@@ -184,8 +194,58 @@ font-family: 'Open Sans', sans-serif;*/
 }
 
 @media (min-width:768px){
+  .containerWho {
+    display: flex;
+    flex-direction: row;
+  }
+  .imageWho {
+    width: 205px;
+    height: 205px;
+    margin: auto;
 
+  }
+  .figureWho {
+    width: 257px;
+  }
 
+  .figureLeftWho{
+    padding-left: 44px;
+  }
+  .figureRigthWho {
+    padding-right: 44px;
+  }
+  .reverseWho {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+
+  .nameLeftWho {
+    text-align: left;
+    padding-left: 30px;
+  }
+  .namerightWho {
+    text-align: right;
+    padding-right: 30px;
+  }
+  .descriptionLeftWho{
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 15px;
+  }
+  .descriptionRightWho {
+    text-align: right;
+    padding-right: 5px;
+    margin-bottom: 15px;
+  }
+  .iconBoxLeftWho {
+    justify-content: flex-start;
+    padding: 31px;
+  }
+  .iconBoxRightWho {
+    justify-content: flex-end;
+    padding: 31px;
+  }
 }
 
 @media (min-width:1200px){
