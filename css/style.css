@@ -21,8 +21,9 @@ font-family: 'Open Sans', sans-serif;*/
   font-family: 'Rubik', medium;
   background-position: center;
   background-size: cover;
-  height: 50vh;
+  height: 25vh;
 }
+
 
 .headerBase{
   background-color: #099d8d;
@@ -30,26 +31,65 @@ font-family: 'Open Sans', sans-serif;*/
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   opacity: 70%;
   height: 60px;
+  padding: 15px 80px;
 }
 
 .header2{
   background-color: #14d9c4;
-  color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 16px;
-  opacity: 70px;
+  opacity: 70%;
+  height: 45px;
+}  
+
+.header2 a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+
+.footer{
+  font-family:'Open Sans';
+  font-size: 0.875rem;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.footer1{
+  color: #b8b8b9;
+  padding: 30px, 74px, 45px, 30px;
+  width: 172px;
+  height: 20px;
+  text-align: center;
+}
+
+.footer2 {
+  padding: 20px 103px 30px;
+  text-align: center;
+
+}
+
+.footer2 a{
+  text-decoration: none;
+  color: #54585a;
+}
+
+.imagenlogo{
+  padding: 30px 102px 45px;
+  width: 115px;
   height: 45px;
 }
 
-.footer{
-  display: flex;
-  justify-content: center;
-}
 .teamImage h2 {
     background-color: white;
     padding: 14px;
