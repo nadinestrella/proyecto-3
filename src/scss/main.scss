@@ -35,6 +35,8 @@ font-family: 'Open Sans', sans-serif;*/
   background-position: center;
   background-size: cover;
   height: 25vh;
+  width: 100vw;
+
 }
 
 .headerBase {
@@ -211,19 +213,21 @@ font-family: 'Open Sans', sans-serif;*/
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .footer1 {
   color: #b8b8b9;
-  padding: 30px, 74px, 45px, 30px;
+  padding: 90px, 74px, 45px, 30px;
   width: 172px;
   height: 20px;
-  text-align: center;
+
 }
 
 .footer2 {
   padding: 20px 103px 30px;
-  text-align: center;
+
 }
 
 .footer2 a {
@@ -231,13 +235,24 @@ font-family: 'Open Sans', sans-serif;*/
   color: #54585a;
 }
 
-.imagenlogo {
-  padding: 30px 102px 45px;
-  width: 115px;
+/*.imagenlogo {
+  margin: 30px 28px 40px;
+  width: 16px;
   height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
+.logo {
+  width: 100px;
 }
 
 @media (min-width: 768px) {
+  .header{
+
+
+  }
   .teamQuote h2 {
     background-color: var(--white);
     opacity: 0.8;
@@ -245,7 +260,7 @@ font-family: 'Open Sans', sans-serif;*/
     transform: translate(-34px, -75px);
   }
   .containerQuote {
-    position: absolute;
+    position: absolute; 
     margin-right: 281px;
     margin-left: 46px;
   }
@@ -312,6 +327,8 @@ font-family: 'Open Sans', sans-serif;*/
     justify-content: flex-end;
     padding: 31px;
   }
+
+
 }
 
 @media (min-width: 1200px) {
