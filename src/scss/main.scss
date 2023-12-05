@@ -149,10 +149,6 @@ font-family: 'Open Sans', sans-serif;*/
   padding-top: 45px;
 }
 
-.containerWho {
-  background-color: aqua;
-}
-
 .figureWho {
   text-align: center;
 }
@@ -162,10 +158,6 @@ font-family: 'Open Sans', sans-serif;*/
   margin: 0 70px 15px;
   border-radius: 4px;
   border: solid 5px var(--black-8);
-}
-
-.boxDescriptionWho {
-  background-color: cadetblue;
 }
 
 .nameWho {
@@ -264,7 +256,7 @@ font-family: 'Open Sans', sans-serif;*/
   .containerWho {
     display: flex;
     flex-direction: row;
-  }
+    }
   .imageWho {
     width: 205px;
     height: 205px;
@@ -285,33 +277,32 @@ font-family: 'Open Sans', sans-serif;*/
     flex-direction: row-reverse;
     text-align: right;
   }
-
-  .nameLeftWho {
-    text-align: left;
-    padding-left: 30px;
+  .boxDescriptionWhoLeft{
+    margin-right: 44px;
+    margin-left: 31px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
   }
-  .namerightWho {
-    text-align: right;
-    padding-right: 30px;
+  .descriptionLeftWho{
+    width: 443px;
+    text-align: start;
+    margin: 0;
+    }
+  .boxDescriptionWhoRight{
+    margin-right: 44px;
+    margin-left: 31px;
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 15px;
   }
-  .descriptionLeftWho {
-    text-align: left;
-    padding-left: 5px;
-    margin-bottom: 15px;
-  }
-  .descriptionRightWho {
-    text-align: right;
-    padding-right: 5px;
-    margin-bottom: 15px;
-  }
-  .iconBoxLeftWho {
-    justify-content: flex-start;
-    padding: 31px;
-  }
-  .iconBoxRightWho {
-    justify-content: flex-end;
-    padding: 31px;
-  }
+  .descriptionRightWho{
+    width: 443px;
+    text-align: end;
+    margin: 0;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -335,5 +326,30 @@ font-family: 'Open Sans', sans-serif;*/
   }
   .teamPresentation h2 {
     color: var(--blue-green);
+  }
+  .containerWho {
+    margin-left: 138px;
+    margin-right: 138px;
+  }
+  .imageWho {
+    width: 278px;
+    height: 278px;
+    margin: auto;
+  }  
+  .figureLeftWho {
+    padding-left: 0;
+    border-radius: 5px solid var(--cool-grey);
+  }
+  .boxDescriptionWhoLeft{
+    margin-right: 300px;
+    margin-left: 45px;
+  }
+  .descriptionWho{
+    width: 440px;
+  
+  }
+  .boxDescriptionWhoRight{
+    margin-left:300px;
+    margin-right: 45px;
   }
 }
