@@ -1,5 +1,35 @@
-.page__header {
+.header {
+  background-image: url(/images/header-pretty.jpg);
+  background-repeat: no-repeat;
+  font-family: 'Rubik', medium;
+  background-position: center;
+  background-size: cover;
+  height: 25vh;
+}
+
+.headerBase {
+  background-color: $colorBlueGreen;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+  color: $colorWhite;
+  font-size: 1rem;
+  opacity: 70%;
+  height: 60px;
+  padding: 15px 80px;
+}
+
+.header2 {
+  background-color: $colorAqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 70%;
+  height: 45px;
+}
+
+.header2 a {
+  text-decoration: none;
+  color: $colorWhite;
+  font-size: 1rem;
 }

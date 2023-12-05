@@ -1,8 +1,35 @@
-.page__footer {
-  position: fixed;
-  left: 0;
+.footer {
+  font-family: 'Open Sans';
+  font-size: 0.875rem;
   bottom: 0;
   width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.footer1 {
+  color: $colorCoolGrey;
+  padding: 30px, 74px, 45px, 30px;
+  width: 172px;
+  height: 20px;
+  text-align: center;
+}
+
+.footer2 {
+  padding: 20px 103px 30px;
+  text-align: center;
+}
+
+.footer2 a {
+  text-decoration: none;
+  color: $colorGunmetal;
+}
+
+.imagenlogo {
+  padding: 30px 102px 45px;
+  width: 115px;
+  height: 45px;
 }

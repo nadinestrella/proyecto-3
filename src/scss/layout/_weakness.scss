@@ -1,0 +1,46 @@
+.containerWeakness {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.greyBoxWeakness {
+  width: 100%;
+  background-color: $colorLightGreyBlue;
+  text-align: center;
+  padding: 60px;
+  border-top: 40px;
+}
+
+.rectangleWeakness {
+  background-color: $colorWhite;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  transform: translateY(15px) rotate(45deg);
+}
+
+.titlesWeakness {
+  color: $colorBlueGreen;
+  font-size: 2.2rem;
+  font-family: 'Rubik', sans-serif;
+}
+.textWeakness {
+  text-align: center;
+  color: #b8b8b9;
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  top: 20px;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+@media (min-width: 768px) {
+  .greyBoxWeakness {
+    width: 50%;
+  }
+  .containerWeakness {
+    flex-direction: row;
+  }
+}
