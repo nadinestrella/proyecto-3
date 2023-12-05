@@ -34,19 +34,28 @@ font-family: 'Open Sans', sans-serif;*/
   font-family: 'Rubik', medium;
   background-position: center;
   background-size: cover;
-  height: 25vh;
+  height: 421px;
+}
+.navegation{
+  font-family: 'Rubik', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  opacity: 70%;
+  width: 100%;
+  position: fixed;
+  top:0;
+  z-index: 100;
 }
 
-.headerBase {
+.navegation h1 {
   background-color: #099d8d;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 1rem;
-  opacity: 70%;
+  font-size: 1.6rem;
   height: 60px;
-  padding: 15px 80px;
+  text-transform: uppercase;
 }
 
 .header2 {
@@ -54,14 +63,14 @@ font-family: 'Open Sans', sans-serif;*/
   display: flex;
   justify-content: space-around;
   align-items: center;
-  opacity: 70%;
   height: 45px;
+  text-transform: uppercase;
 }
 
 .header2 a {
   text-decoration: none;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .teamQuote h2 {
@@ -238,6 +247,26 @@ font-family: 'Open Sans', sans-serif;*/
 }
 
 @media (min-width: 768px) {
+
+.navegation{
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  background-color: var(--blue-green);
+  opacity: 80%;
+}
+.navegation h1{
+  padding-left: 45px;
+}
+.header2{
+  background-color: var(--blue-green);
+  justify-content: end;
+  gap: 19px;
+  padding-right: 45px;
+  padding-top: 16px;
+}
+
   .teamQuote h2 {
     background-color: var(--white);
     opacity: 0.8;
@@ -315,6 +344,12 @@ font-family: 'Open Sans', sans-serif;*/
 }
 
 @media (min-width: 1200px) {
+  .navegation h1{
+    padding-left: 142px;
+  }
+  .header2{
+    padding-right: 138px;
+  }
   .containerQuote {
     position: absolute;
     margin-right: 488px;
