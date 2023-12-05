@@ -18,18 +18,18 @@
 }
 
 .navegation h1 {
-  background-color: #099d8d;
+  background-color: $colorBlueGreen;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: $colorWhite;
   font-size: 1.6rem;
   height: 60px;
   text-transform: uppercase;
 }
 
 .header2 {
-  background-color: #14d9c4;
+  background-color: $colorAqua;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -39,21 +39,21 @@
 
 .header2 a {
   text-decoration: none;
-  color: #fff;
+  color: $colorWhite;
   font-size: 1.5rem;
 }
 @media (min-width: 768px){
   .navegation{
     flex-direction: row;
     justify-content: space-between;
-    background-color: #099d8d;
+    background-color: $colorBlueGreen;
     height: 60px;
   }
   .navegation h1{
     padding-left: 45px;
   }
   .header2 nav{
-    background-color:  #099d8d;
+    background-color:  $colorBlueGreen;
     justify-content: end;
     gap: 19px;
     padding-right: 45px;
@@ -65,6 +65,7 @@
     padding-left: 142px;
   }
   .header2{
+    background-color: $colorBlueGreen;
     padding-right: 138px;
   }
 }
