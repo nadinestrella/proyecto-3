@@ -4,32 +4,41 @@
   font-family: 'Rubik', medium;
   background-position: center;
   background-size: cover;
-  height: 25vh;
+  height: 421px;
+}
+.navegation{
+  font-family: 'Rubik', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  opacity: 70%;
+  width: 100%;
+  position: fixed;
+  top:0;
+  z-index: 100;
 }
 
-.headerBase {
-  background-color: $colorBlueGreen;
+.navegation h1 {
+  background-color: #099d8d;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: $colorWhite;
-  font-size: 1rem;
-  opacity: 70%;
+  color: white;
+  font-size: 1.6rem;
   height: 60px;
-  padding: 15px 80px;
+  text-transform: uppercase;
 }
 
 .header2 {
-  background-color: $colorAqua;
+  background-color: #14d9c4;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  opacity: 70%;
   height: 45px;
+  text-transform: uppercase;
 }
 
 .header2 a {
   text-decoration: none;
-  color: $colorWhite;
-  font-size: 1rem;
+  color: #fff;
+  font-size: 1.5rem;
 }
