@@ -5,28 +5,41 @@
   background-position: center;
   background-size: cover;
   height: 421px;
-}
-.navegation{
-  font-family: 'Rubik', sans-serif; 
-  display: flex;
-  flex-direction: column;
-  opacity: 70%;
-  width: 100vw;
-  position: fixed;
-  top:0;
-  z-index: 100;
+  &__navegation{
+    font-family: 'Rubik', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    opacity: 70%;
+    width: 100vw;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    @media (min-width: 768px){
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: $colorBlueGreen;
+      height: 60px;
+    }
+
+    & h1{
+      background-color: $colorBlueGreen;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $colorWhite;
+      font-size: 1.6rem;
+      height: 60px;
+      text-transform: uppercase;
+      @media (min-width: 768px){
+        padding-left: 45px;
+      }
+      @media (min-width: 1200px){
+        padding-left: 142px;
+      }
+    }
+  }
 }
 
-.navegation h1 {
-  background-color: $colorBlueGreen;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: $colorWhite;
-  font-size: 1.6rem;
-  height: 60px;
-  text-transform: uppercase;
-}
 
 .header2 {
   background-color: $colorAqua;
@@ -35,37 +48,25 @@
   align-items: center;
   height: 45px;
   text-transform: uppercase;
+  @media (min-width: 1200px){
+    background-color: $colorBlueGreen;
+    padding-right: 138px;
+  }
+  
+  & a{
+    text-decoration: none;
+    color: $colorWhite;
+    font-size: 1.5rem;
+  }
 }
 
-.header2 a {
-  text-decoration: none;
-  color: $colorWhite;
-  font-size: 1.5rem;
-}
+/*No sé cómo meter el .header2 nav si no estaba definido en el css antes*/
 @media (min-width: 768px){
-  .navegation{
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: $colorBlueGreen;
-    height: 60px;
-  }
-  .navegation h1{
-    padding-left: 45px;
-  }
   .header2 nav{
     background-color:  $colorBlueGreen;
     justify-content: end;
     gap: 19px;
     padding-right: 45px;
     padding-top: 16px;
-  }
-}
-@media (min-width: 1200px) {
-  .navegation h1{
-    padding-left: 142px;
-  }
-  .header2{
-    background-color: $colorBlueGreen;
-    padding-right: 138px;
   }
 }
