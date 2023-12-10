@@ -48,6 +48,9 @@
   align-items: center;
   height: 45px;
   text-transform: uppercase;
+  @media (min-width:768px){
+    background-color: $colorBlueGreen;
+  }
   @media (min-width: 1200px){
     background-color: $colorBlueGreen;
     padding-right: 138px;
@@ -60,7 +63,6 @@
   }
 }
 
-/*No sé cómo meter el .header2 nav si no estaba definido en el css antes*/
 @media (min-width: 768px){
   .header2 nav{
     background-color:  $colorBlueGreen;
