@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuenteovejuna</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+    rel="stylesheet"
+  />
+
+  
+
+  <link rel="stylesheet" href="./assets/main-bc9d6b11.css">
+</head>
+<body>
+    <header >
+      <header class="header contactHeader">
+  <nav class="header__navegation">
+    <h1>Fuenteovejuna</h1>
+    <section class="header2">
+      <nav><a href="link#Equipo">Equipo</a></nav>
+      <nav><a href="link#About-us"> Quienes somos</a></nav>
+      <nav><a href="../contact.html">Contacto</a></nav>
+    </section>
+  </nav>
+</header>
+
+    </header>
+    <main>
+        <section class="contact">
+    <h2>Contacto</h2>
+    <h3>¿Quieres conocermos más? Ponte en contacto con nosotras rellenando este pequeño formulario y estaremos encantadas de poder responder tus dudas.</h3>
+    <p >Todos los campos marcados con <span class="symbol">*</span> son obligatorios.</p>
+</section>
+<form class="form" action="/singup" method="post">
+
+    <div class="form__nameForm">
+        <label for="name">Nombre completo <span class="symbol">*</span></label>
+        <input placeholder="Nombre..." id="name" name="name" required><br>
+    </div>
+
+    <div class="form__mailForm">
+        <label for="email">Email<span class="symbol">*</span></label>
+        <input placeholder="nombre.apellidos@mail.com" type="email" id="email" name="email" required><br>
+    </div>
+
+    <div class="form__phoneForm">
+        <label for="phone">Teléfono</label>
+        <input placeholder="Ej: 123456789" type="tel" id="telefono" name="telefono" required><br>
+    </div>
+
+    <div class="form__messageForm">
+        <label for="message">Mensaje<span class="symbol">*</span></label>
+        <textarea placeholder="¿Qué necesitas?" id="mensaje" name="mensaje" rows="8" cols="50" required></textarea><br>
+    </div>
+
+    <button class="form__button" type="submit">Enviar</button>
+</form>
+
+
+    </main> 
+    <footer class="footer">
+  
+    <p class="footer__P">Fuenteovejuna © 2023</p>
+    
+  <section class="footerNav">
+    <nav><a href="link#Equipo">EQUIPO</a></nav>
+    <nav><a href="link#About-us"> QUIÉNES SOMOS</a></nav>
+    <nav><a href="seccionContacto">CONTACTO</a></nav>
+  </section>
+  <img class="logo" src="./images/logo-adalab.png"/>
+
+
+</footer>
+   
+</body>
+</html>

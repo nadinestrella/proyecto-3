@@ -2,68 +2,216 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fuenteovejuna</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    
+    <link rel="stylesheet" href="./assets/main-bc9d6b11.css">
+  </head>
   <body>
-    <div class="page">
-      <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Bienvenidos a Adalab</h1>
+    <header class="header {=$cssHeader}">
+  <nav class="header__navegation">
+    <h1>Fuenteovejuna</h1>
+    <section class="header2">
+      <nav><a href="link#Equipo">Equipo</a></nav>
+      <nav><a href="link#About-us"> Quienes somos</a></nav>
+      <nav><a href="../contact.html">Contacto</a></nav>
+    </section>
+  </nav>
 </header>
 
-      <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <a class="link__adalab" href="https://adalab.es">Adalab</a>
+    <main>
+      <section class="teamQuote">
+    <div class="teamQuote__containerQuote">
+      <h2><em>"Un gran poder conlleva una gran responsabilidad."</em></h2>
+    </div>
+  </section>
+  <section class="teamDesc">
+    <div class="teamDesc__containerTeam">
+      <h2 id="Equipo">Equipo</h2>
+      <p>
+        Tiene delante a un equipo formado por 5 maravillosas mujeres que han
+        tomado la increíble decisión de entrar en un mundo completamente
+        desconocido para ellas asumiendo riesgos e inseguridades, lo que
+        puede dejar entrever de qué pasta están hechas.
+      </p>
+      <p>
+        Cada una de ellas se define como una mujer fuerte, creativa,
+        resolutiva y con ganas de superarse a sí mismas aceptando retos y
+        dispuestas a demostrar al mundo de lo que son capaces, pero todas
+        juntas conforman un equipo fuerte y que ellas definen como equipo
+        <em>"Fuenteovejuna"</em>, donde todas van a una.
+      </p>
+    </div>
+  </section>
+      <div class="rectangleWeakness"></div>
 
-    </li>
-    <li>
-      <a class="{=$aClass}" href="./more-info.html">Más info del starter kit</a>
+      <div class="containerWeakness">
+        <div class="greyBoxWeakness">
+          <h3 class="titlesWeakness">Fortalezas</h3>
+          <p class="textWeakness">
+            Con una combinación única de valentía, inteligencia y fuerza, estas profesionales demuestran una determinación férrea para superar cualquier desafío. Su capacidad colectiva para innovar y resolver problemas destaca, mientras que su valentía las impulsa a explorar nuevos horizontes laborales con confianza. Unidos por una visión compartida y la voluntad de triunfar, este equipo de mujeres fuertes promete liderar con ejemplaridad en su emocionante jornada laboral.
+          </p>
+        </div>
+        <div class="greyBoxWeakness">
+          <h3 class="titlesWeakness">Debilidades</h3>
+          <p class="textWeakness">
+            A pesar de ser un grupo de cinco mujeres estudiantes y trabajadoras iniciando una nueva etapa laboral, su principal debilidad radica en la inexperiencia directa. No obstante, su entusiasmo por aprender y enfrentar desafíos las convierte en un equipo resiliente y adaptable. La diversidad de habilidades podría requerir ajustes iniciales, pero están decididas a convertir cualquier obstáculo en una oportunidad de crecimiento colectivo.
+          </p>
+        </div>
+      </div>
+      <section >
+  <h2 class="titleWho" id="About-us">Quienes somos</h2>
+  <div class="containerWho">
+<figure class="figureWho figureLeftWho">
+    <img
+      class="imageWho"
+      src="./images/IMG_5207.jpg" alt="Foto Nadine"/>
+  </figure>
+  <div class="boxDescriptionWhoLeft">
+    <h3 class="nameWho nameLeftWho">Nadine Estrella Vacas</h3>
+    <p class="descriptionWho descriptionLeftWho">
+      Energética y apasionada, Nadine destaca por su amor por los desafíos. Su actitud positiva irradia entusiasmo en el equipo, mientras abraza cada oportunidad para aprender y crecer. Con una mentalidad proactiva, esta profesional incansable convierte cada obstáculo en una oportunidad para brillar.
+    </p>
+    <div class="iconBoxWho iconBoxLeftWho">
+      <a class="iconWho dotWho" href="www.linkedin.com/in/nadinestrellavacas"
+        ><i class="fa-brands fa-linkedin-in"></i
+      ></a>
+      <a class="iconWho dotWho" href="https://github.com/nadinestrella">
+        <i class="fa-brands fa-github-alt"></i
+      ></a>
+      <a class="iconWho" href="nadinestrella@gmail.com"> <i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</div>
 
-    </li>
-  </ul>
-</main>
+  <div class="containerWho reverseWho" >
+    <figure class="figureWho figureRigthWho">
+      <img
+        class="imageWho"
+        src="./images/IMG_20231204_184755.jpg" alt="Foto Teresa"/>
+    </figure>
+    <div class="boxDescriptionWhoRight">
+      <h3 class="nameWho namerightWho">Teresa Toledo Lara</h3>
+      <p class="descriptionWho descriptionRightWho">
+        
+  Destaca por su capacidad para adaptarse con agilidad a los cambios. Apasionada por aprender, se sumerge en la autodidaxia con entusiasmo, convirtiendo cada desafío en una oportunidad para crecer. Su dedicación y flexibilidad la hacen brillar en cualquier entorno laboral.
+      <div class="iconBoxWho iconBoxRightWho">
+        <a class="iconWho dotWho" href="https://www.linkedin.com/in/teresa-toledo-b2a808189/"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a class="iconWho dotWho" href="https://github.com/teresatoledo">
+          <i class="fa-brands fa-github-alt"></i
+        ></a>
+        <a class="iconWho" href="laratoledoteresa@hotmail.com"> <i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="containerWho">
+<figure class="figureWho figureLeftWho">
+    <img
+      class="imageWho"
+      src="./images/fotoMarta.png" alt="Foto Marta"/>
+  </figure>
+  <div class="boxDescriptionWhoLeft">
+    <h3 class="nameWho nameLeftWho">Marta Bueno Ortiz</h3>
+    <p class="descriptionWho descriptionLeftWho">
+      Es una chica que no se conforma con lo que tiene, sino que siempre busca mejorar y aprender cosas nuevas. Le encanta planificar su día a día y seguir una rutina que le ayude a cumplir sus objetivos. Es muy positiva y optimista, pero también exigente y detallista con todo lo que hace. No le gusta dejar nada al azar ni cometer errores, por eso se esfuerza al máximo en cada proyecto que emprende.
+    </p>
+    <div class="iconBoxWho iconBoxLeftWho">
+      <a class="iconWho dotWho" href="www.linkedin.com/in/mbueno992"
+        ><i class="fa-brands fa-linkedin-in"></i
+      ></a>
+      <a class="iconWho dotWho" href="https://github.com/mbueno992">
+        <i class="fa-brands fa-github-alt"></i
+      ></a>
+      <a class="iconWho" href="mbueno_92@hotmail.com"> <i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</div>
 
-      <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
+  <div class="containerWho reverseWho" >
+    <figure class="figureWho figureRigthWho">
+      <img
+        class="imageWho"
+        src="./images/IMG_20210803_191150.jpg" alt="Foto Rosa"/>
+    </figure>
+    <div class="boxDescriptionWhoRight">
+      <h3 class="nameWho namerightWho">Rosa Ponce</h3>
+      <p class="descriptionWho descriptionRightWho">
+        
+  Cree que mezclar precisión y creatividad no solo es posible sino que hace que los proyectos suban al siguiente nivel. No tiene miedo a los cambios ya que a lo largo de su vida profesional ha aprendido que nunca sabes qué nuevo reto se convertirá en tu próximo proyecto favorito.
+      <div class="iconBoxWho iconBoxRightWho">
+        <a class="iconWho dotWho" href="https://www.linkedin.com/in/rosa-ponce-72a48083/"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a class="iconWho dotWho" href=" https://github.com/rosapon">
+          <i class="fa-brands fa-github-alt"></i
+        ></a>
+        <a class="iconWho" href="yosoyrosaponce@gmail.com"> <i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="containerWho">
+<figure class="figureWho figureLeftWho">
+    <img
+      class="imageWho"
+      src="./images/FotoJenny.jpg" alt="Foto Jennifer"/>
+  </figure>
+  <div class="boxDescriptionWhoLeft">
+    <h3 class="nameWho nameLeftWho">Jennifer Olmedo Rueda</h3>
+    <p class="descriptionWho descriptionLeftWho">
+      De presencia fuerte y enérgica. Persona valiente y luchadora. No teme enfrentarse a los desafíos de la vida y siempre busca oportunidades para superarse a sí misma. Tiene una iniciativa notable y no espera a que las cosas sucedan; más bien, toma la iniciativa y dirige su propio camino. Su actitud resiliente la impulsa a seguir adelante incluso en las circunstancias más difíciles.
+    </p>
+    <div class="iconBoxWho iconBoxLeftWho">
+      <a class="iconWho dotWho" href="https://www.linkedin.com/in/jenny-olmedo-rueda/"
+        ><i class="fa-brands fa-linkedin-in"></i
+      ></a>
+      <a class="iconWho dotWho" href="https://github.com/94Jennn">
+        <i class="fa-brands fa-github-alt"></i
+      ></a>
+      <a class="iconWho" href="jenyolmedo@hotmail.com"> <i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</div>
 
-  </small>
+ 
+</section>
+
+    </main>
+    <footer class="footer">
+  
+    <p class="footer__P">Fuenteovejuna © 2023</p>
+    
+  <section class="footerNav">
+    <nav><a href="link#Equipo">EQUIPO</a></nav>
+    <nav><a href="link#About-us"> QUIÉNES SOMOS</a></nav>
+    <nav><a href="seccionContacto">CONTACTO</a></nav>
+  </section>
+  <img class="logo" src="./images/logo-adalab.png"/>
+
+
 </footer>
 
-    </div>
-    <script src="./js/main.js"></script>
   </body>
 </html>
