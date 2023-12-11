@@ -1,0 +1,29 @@
+<section class="contact">
+    <h2>Contacto</h2>
+    <h3>¿Quieres conocermos más? Ponte en contacto con nosotras rellenando este pequeño formulario y estaremos encantadas de poder responder tus dudas.</h3>
+    <p >Todos los campos marcados con <span class="symbol">*</span> son obligatorios.</p>
+</section>
+<form class="form" action="/singup" method="post">
+
+    <div class="form__nameForm">
+        <label for="name">Nombre completo <span class="symbol">*</span></label>
+        <input placeholder="Nombre..." id="name" name="name" required><br>
+    </div>
+
+    <div class="form__mailForm">
+        <label for="email">Email<span class="symbol">*</span></label>
+        <input placeholder="nombre.apellidos@mail.com" type="email" id="email" name="email" required><br>
+    </div>
+
+    <div class="form__phoneForm">
+        <label for="phone">Teléfono</label>
+        <input placeholder="Ej: 123456789" type="tel" id="telefono" name="telefono" required><br>
+    </div>
+
+    <div class="form__messageForm">
+        <label for="message">Mensaje<span class="symbol">*</span></label>
+        <textarea placeholder="¿Qué necesitas?" id="mensaje" name="mensaje" rows="8" cols="50" required></textarea><br>
+    </div>
+
+    <button class="form__button" type="submit">Enviar</button>
+</form>

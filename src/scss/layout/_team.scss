@@ -49,25 +49,25 @@
     margin: 0 15px 30px 15px;
     display: flex;
     flex-direction: column;
+    @media (min-width: 768px){
+      margin: 45px;
+    }
+    @media (min-width: 1200px){
+      margin: 45px 299px 60px;
+    }
     & h2 {
       color: $colorAqua;
       text-transform: uppercase;
       font-size: 2.4rem;
+      @media (min-width: 768px){
+        color: $colorBlueGreen;
     }
+  }
     & p {
       color: $colorGunmetal;
       font-family: 'Open Sans', sans-serif;
       font-size: 1.6rem;
       margin: 15px;
-    }
-    @media (min-width: 768px){
-      margin: 45px;
-      & h2{
-        color: $colorBlueGreen;
-      }
-    }
-    @media (min-width: 1200px){
-      margin: 45px 299px 60px;
     }
   }
 }
