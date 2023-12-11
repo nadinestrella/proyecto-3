@@ -1,12 +1,12 @@
 .containerWeakness {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  background-color: $colorLightGreyBlue;
+  
 }
 
 .greyBoxWeakness {
-  width: 100%;
-  background-color: $colorLightGreyBlue;
+  
   text-align: center;
   padding: 60px;
   border-top: 40px;
@@ -38,7 +38,7 @@
 
 @media (min-width: 768px) {
   .greyBoxWeakness {
-    width: 50%;
+    width: 50%
   }
   .containerWeakness {
     flex-direction: row;
