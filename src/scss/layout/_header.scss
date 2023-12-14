@@ -20,6 +20,9 @@
       background-color: $colorBlueGreen;
       height: 60px;
     }
+    & a{
+      text-decoration: none;
+    }
     & h1{
       background-color: $colorBlueGreen;
       display: flex;
@@ -29,6 +32,7 @@
       font-size: 1.6rem;
       height: 60px;
       text-transform: uppercase;
+      
       @media (min-width: 768px){
         padding-left: 45px;
       }
